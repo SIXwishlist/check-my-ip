@@ -21,7 +21,7 @@ using curl:
 	awk '{gsub("<[^>]*>", "")}1' testfileurl.htm | sed 's/ //g' > testfileurl.txt && rm testfileurl.htm
 	more testfileurl.htm
 
-using links
+using links:
 
 	links url-to-index.php
 
